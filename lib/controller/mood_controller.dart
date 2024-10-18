@@ -42,7 +42,7 @@ class MoodController extends GetxController {
     }
   }
 
-  void navigateToOnboarding() {
-    Get.offNamed('/'); // Your route
-  }
+  // void navigateToOnboarding() {
+  //   Get.offNamed('/'); // Your route
+  // }
 }
