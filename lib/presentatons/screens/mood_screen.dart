@@ -50,12 +50,7 @@ class MoodScreen extends StatelessWidget {
                     ],
                   ),
                 ),
-                Positioned.fill(
-                  top: 130,
-                  child: Obx(() {
-                    return DaysList();
-                  }),
-                ),
+                Positioned.fill(top: 130, child: DaysList()),
               ],
             ),
           ),
